@@ -11,6 +11,15 @@
 		376B5FBB2BCF16E800335EA3 /* NovaCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 376B5FB02BCF16E800335EA3 /* NovaCalendar.framework */; };
 		376B5FC02BCF16E800335EA3 /* NovaCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376B5FBF2BCF16E800335EA3 /* NovaCalendarTests.swift */; };
 		376B5FC12BCF16E800335EA3 /* NovaCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 376B5FB32BCF16E800335EA3 /* NovaCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		376B5FD82BCF171800335EA3 /* CalendarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376B5FCA2BCF171800335EA3 /* CalendarData.swift */; };
+		376B5FD92BCF171800335EA3 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376B5FCB2BCF171800335EA3 /* Date+Extensions.swift */; };
+		376B5FDD2BCF171800335EA3 /* CalendarConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376B5FD12BCF171800335EA3 /* CalendarConfig.swift */; };
+		376B5FDE2BCF171800335EA3 /* DayButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376B5FD22BCF171800335EA3 /* DayButtonView.swift */; };
+		376B5FE02BCF171800335EA3 /* HorizontalCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376B5FD42BCF171800335EA3 /* HorizontalCalendar.swift */; };
+		376B5FE12BCF171800335EA3 /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376B5FD52BCF171800335EA3 /* MonthView.swift */; };
+		376B5FE22BCF171800335EA3 /* WeekDaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376B5FD62BCF171800335EA3 /* WeekDaysView.swift */; };
+		376B5FE32BCF171800335EA3 /* CustomCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376B5FD72BCF171800335EA3 /* CustomCalendarView.swift */; };
+		376B5FE52BCF173100335EA3 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 376B5FE42BCF173000335EA3 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +38,15 @@
 		376B5FB42BCF16E800335EA3 /* NovaCalendar.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = NovaCalendar.docc; sourceTree = "<group>"; };
 		376B5FBA2BCF16E800335EA3 /* NovaCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NovaCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		376B5FBF2BCF16E800335EA3 /* NovaCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovaCalendarTests.swift; sourceTree = "<group>"; };
+		376B5FCA2BCF171800335EA3 /* CalendarData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalendarData.swift; path = ../CalendarData.swift; sourceTree = "<group>"; };
+		376B5FCB2BCF171800335EA3 /* Date+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		376B5FD12BCF171800335EA3 /* CalendarConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalendarConfig.swift; path = ../CalendarConfig.swift; sourceTree = "<group>"; };
+		376B5FD22BCF171800335EA3 /* DayButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayButtonView.swift; sourceTree = "<group>"; };
+		376B5FD42BCF171800335EA3 /* HorizontalCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalCalendar.swift; sourceTree = "<group>"; };
+		376B5FD52BCF171800335EA3 /* MonthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
+		376B5FD62BCF171800335EA3 /* WeekDaysView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekDaysView.swift; sourceTree = "<group>"; };
+		376B5FD72BCF171800335EA3 /* CustomCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomCalendarView.swift; path = ../CustomCalendarView.swift; sourceTree = "<group>"; };
+		376B5FE42BCF173000335EA3 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				376B5FB22BCF16E800335EA3 /* NovaCalendar */,
+				376B5FE42BCF173000335EA3 /* Media.xcassets */,
 				376B5FBE2BCF16E800335EA3 /* NovaCalendarTests */,
 				376B5FB12BCF16E800335EA3 /* Products */,
 			);
@@ -71,6 +90,10 @@
 		376B5FB22BCF16E800335EA3 /* NovaCalendar */ = {
 			isa = PBXGroup;
 			children = (
+				37D676252BD00BB4004EB372 /* Views */,
+				376B5FCC2BCF171800335EA3 /* Extension */,
+				376B5FD02BCF171800335EA3 /* Data */,
+				376B5FD42BCF171800335EA3 /* HorizontalCalendar.swift */,
 				376B5FB32BCF16E800335EA3 /* NovaCalendar.h */,
 				376B5FB42BCF16E800335EA3 /* NovaCalendar.docc */,
 			);
@@ -83,6 +106,34 @@
 				376B5FBF2BCF16E800335EA3 /* NovaCalendarTests.swift */,
 			);
 			path = NovaCalendarTests;
+			sourceTree = "<group>";
+		};
+		376B5FCC2BCF171800335EA3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				376B5FCB2BCF171800335EA3 /* Date+Extensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		376B5FD02BCF171800335EA3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				376B5FD12BCF171800335EA3 /* CalendarConfig.swift */,
+				376B5FCA2BCF171800335EA3 /* CalendarData.swift */,
+				376B5FD72BCF171800335EA3 /* CustomCalendarView.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		37D676252BD00BB4004EB372 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				376B5FD22BCF171800335EA3 /* DayButtonView.swift */,
+				376B5FD52BCF171800335EA3 /* MonthView.swift */,
+				376B5FD62BCF171800335EA3 /* WeekDaysView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				376B5FE52BCF173100335EA3 /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,7 +246,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				376B5FDD2BCF171800335EA3 /* CalendarConfig.swift in Sources */,
+				376B5FE12BCF171800335EA3 /* MonthView.swift in Sources */,
 				376B5FB52BCF16E800335EA3 /* NovaCalendar.docc in Sources */,
+				376B5FD82BCF171800335EA3 /* CalendarData.swift in Sources */,
+				376B5FE22BCF171800335EA3 /* WeekDaysView.swift in Sources */,
+				376B5FDE2BCF171800335EA3 /* DayButtonView.swift in Sources */,
+				376B5FD92BCF171800335EA3 /* Date+Extensions.swift in Sources */,
+				376B5FE02BCF171800335EA3 /* HorizontalCalendar.swift in Sources */,
+				376B5FE32BCF171800335EA3 /* CustomCalendarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +413,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
@@ -362,7 +422,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
@@ -394,7 +454,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
@@ -403,7 +463,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
@@ -423,6 +483,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y5248NWJRM;
@@ -444,6 +505,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y5248NWJRM;
